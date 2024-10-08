@@ -49,8 +49,13 @@ def max_marks(a):
 
 
 ## Output:
+### i)
 ![image](https://github.com/user-attachments/assets/c8a8e648-8324-4f9a-81be-34225f8941ac)
+
+### ii)
 ![image](https://github.com/user-attachments/assets/a727143d-a7da-47ff-b7e0-eee2959d9ce7)
+
+### iii)
 ![image](https://github.com/user-attachments/assets/24b73731-53b0-4cde-991d-ce28fd466034)
 
 
