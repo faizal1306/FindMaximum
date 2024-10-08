@@ -34,6 +34,9 @@ def max_marks(a):
     return max(a)
 
 
+
+
+
 ```
 
 iii) # To find the maximum marks without using builtin functions.
