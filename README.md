@@ -14,26 +14,31 @@ To write a program to find the maximum of a list of numbers.
 i)	# To find the maximum of marks using the list method sort.
 ```
 
+
 #Developed by : AMALJOSH MAADHAV J
 #Roll num: 212223230012
 def max_marks(a):
     a.sort()
     return a[9]
 
+
 ```
 
 ii)	# To find the maximum marks using the list method max().
 ```
+
 
 #Developed by : AMALJOSH MAADHAV J
 #Roll num: 212223230012
 def max_marks(a):
     return max(a)
 
+
 ```
 
 iii) # To find the maximum marks without using builtin functions.
 ```
+
 
 #Developed by : AMALJOSH MAADHAV J
 #Roll num: 212223230012
@@ -43,6 +48,7 @@ def max_marks(a):
         if(i>max):
             max=i
     return max
+
 
 ```
 
