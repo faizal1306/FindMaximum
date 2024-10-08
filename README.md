@@ -36,6 +36,7 @@ def max_marks(a):
 
 
 
+
 ```
 
 iii) # To find the maximum marks without using builtin functions.
