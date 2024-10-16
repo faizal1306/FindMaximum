@@ -11,46 +11,45 @@ To write a program to find the maximum of a list of numbers.
 3.	Return the maximum value
 ## Program:
 
-i)	# To find the maximum of marks using the list method sort.
+i)
 ```
 
 
-#Developed by : AMALJOSH MAADHAV J
-#Roll num: 212223230012
-def max_marks(a):
-    a.sort()
-    return a[9]
-
-
-```
-
-ii)	# To find the maximum marks using the list method max().
-```
-
-
-#Developed by : AMALJOSH MAADHAV J
-#Roll num: 212223230012
-def max_marks(a):
-    return max(a)
-
-
-
+#Developed by : MOHAMED FAIZAL M
+#Roll num: 24000006
+def max_marks(array):
+    array.sort()
+    return array[-1]
 
 
 ```
 
-iii) # To find the maximum marks without using builtin functions.
+ii)
 ```
 
 
-#Developed by : AMALJOSH MAADHAV J
-#Roll num: 212223230012
-def max_marks(a):
-    max =a[0]
-    for i in a:
-        if(i>max):
-            max=i
-    return max
+#Developed by : MOHAMED FAIZAL M
+#Roll num: 24000006
+def max_marks(array):
+    return max(array)
+
+
+
+
+
+```
+
+iii)
+```
+#Developed by : MOHAMED FAIZAL M
+#Roll num: 24000006
+def max_marks(array):
+    max1=array[0]
+    for i in range(1,len(array)):
+        if max1<array[i]:
+            max1=array[i]
+    return max1
+
 
 
 ```
@@ -59,13 +58,16 @@ def max_marks(a):
 
 ## Output:
 ### i)
-![image](https://github.com/user-attachments/assets/c8a8e648-8324-4f9a-81be-34225f8941ac)
+![SS0](https://github.com/user-attachments/assets/41fb2816-8398-4bd6-b4eb-972a781f0ea3)
+
 
 ### ii)
-![image](https://github.com/user-attachments/assets/a727143d-a7da-47ff-b7e0-eee2959d9ce7)
+
+![ss2](https://github.com/user-attachments/assets/7afde5d7-695a-4250-b87b-0a35edb9451f)
 
 ### iii)
-![image](https://github.com/user-attachments/assets/24b73731-53b0-4cde-991d-ce28fd466034)
+![ss3](https://github.com/user-attachments/assets/fa05e814-6d6b-4c19-9fe2-5a21b717595f)
+
 
 
 ## Result:
